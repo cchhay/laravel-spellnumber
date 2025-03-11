@@ -1,6 +1,6 @@
 {
     "name": "cchhay/laravel-spellnumber",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A Laravel Package for spelling number within your prefer language.",
     "type": "library",
     "require": {
