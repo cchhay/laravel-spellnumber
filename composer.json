@@ -1,8 +1,11 @@
 {
     "name": "cchhay/laravel-spellnumber",
     "version": "1.0.0",
-    "description": "A Laravel package with facade support.",
+    "description": "A Laravel Package for spelling number within your prefer language.",
     "type": "library",
+    "require": {
+        "php": ">=8.2"
+    },
     "autoload": {
         "psr-4": {
             "Cchhay\\LaravelSpellnumber\\": "src/"
@@ -17,5 +20,14 @@
                 "Spellnumber": "Cchhay\\LaravelSpellnumber\\Facades\\LaravelSpellnumber"
             }
         }
-    }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chhay Chhem",
+            "email": "chhay_ittech@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
