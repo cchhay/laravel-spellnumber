@@ -1,0 +1,21 @@
+{
+    "name": "cchhay/laravel-spellnumber",
+    "version": "1.0.0",
+    "description": "A Laravel package with facade support.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Cchhay\\LaravelSpellnumber\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cchhay\\LaravelSpellnumber\\LaravelSpellnumberServiceProvider"
+            ],
+            "aliases": {
+                "Spellnumber": "Cchhay\\LaravelSpellnumber\\Facades\\LaravelSpellnumber"
+            }
+        }
+    }
+}
