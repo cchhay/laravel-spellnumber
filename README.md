@@ -2,6 +2,7 @@
 
 ## usage
 
+```php
 <?php
 
 use App\Http\Controllers\EmployeeController;
